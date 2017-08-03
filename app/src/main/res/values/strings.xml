@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Bolly Filmes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_detalhe_activity">Detalhe</string>
+    <string name="settings_activity_label">Configurações</string>
+    <string name="prefs_ordem_default_value">popular</string>
+    <string name="prefs_ordem_default_entry">Filmes Populares</string>
+    <string name="prefs_ordem_label">Ordem</string>
+    <string name="prefs_ordem_key">ordem</string>
+
+    <!-- Preferencias de ordem -->
+    <string-array name="prefs_ordem_values">
+        <item>popular</item>
+        <item>top_rated</item>
+    </string-array>
+    
+    <string-array name="prefs_ordem_entries">
+        <item>Filmes Populares</item>
+        <item>Melhores Avaliados</item>
+    </string-array>
+
+    <!-- Preferencias de idioma -->
+    <string name="prefs_idioma_label">Idioma</string>
+    <string name="prefs_idioma_key">idioma</string>
+    <string name="prefs_idioma_default_value">pt-BR</string>
+    <string name="prefs_idioma_default_entry">Português</string>
+
+    <string-array name="prefs_idioma_values">
+        <item>en</item>
+        <item>pt-BR</item>
+    </string-array>
+
+    <string-array name="prefs_idioma_entries">
+        <item>Inglês</item>
+        <item>Português</item>
+    </string-array>
+
+    <!-- Preferencias de notificação -->
+    <string name="prefs_notify_filmes_label">Notificações</string>
+    <string name="prefs_notify_filmes_key">prefs_notify_filmes</string>
+    <string name="prefs_notify_filmes_off">Desabilitado</string>
+    <string name="prefs_notify_filmes_on">Habilitado</string>
+    <string name="prefs_notify_filmes_default">true</string>
+
+    <!-- Account Manager -->
+    <string name="sync_account_type">bollyfilmes.deyvidjlira.com.br</string>
+    <string name="content_authority">br.com.deyvidjlira.bollyfilmes</string>
+
+    <!-- Menu -->
+    <string name="menu_update_label">Atualizar</string>
+    <string name="menu_settings_label">Configurações</string>
+
+    <!-- Progress bar dialog -->
+    <string name="label_loading_title">Carregando...</string>
+    <string name="label_loading_message">Por favor, aguarde!</string>
+
+</resources>
